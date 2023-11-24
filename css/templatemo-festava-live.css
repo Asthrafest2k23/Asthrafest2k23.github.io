@@ -42,6 +42,37 @@ https://templatemo.com/tm-583-festava-live
   --font-weight-normal:           400;
   --font-weight-bold:             700;
 }
+ .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .col-lg-3,
+    .col-12 {
+        margin-bottom: 1rem; /* You can adjust the margin as needed */
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-white {
+        color: white;
+    }
+
+    .font-weight-light {
+        font-weight: 300; /* Set the font weight to the lowest */
+    }
+
+    .py-3 {
+        padding-top: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .py-lg-0 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 
 body {
   background-color: var(--white-color);
