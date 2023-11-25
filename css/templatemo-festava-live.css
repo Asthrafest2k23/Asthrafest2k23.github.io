@@ -10,6 +10,14 @@ https://templatemo.com/tm-583-festava-live
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
+.about-text-wrap {
+  text-align: center; /* Adjust this property based on your design */
+}
+
+.about-image {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  height: auto;
+}
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #F8CB2E;
@@ -58,6 +66,12 @@ https://templatemo.com/tm-583-festava-live
 
     .text-white {
         color: white;
+       
+    }
+    .text-justify 
+    {
+      text-align:justify;
+
     }
 
     .font-weight-light {
@@ -244,8 +258,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section-bg {
@@ -540,12 +554,29 @@ strong {
 /*---------------------------------------
   ABOUT              
 -----------------------------------------*/
+.social {
+  background-image: linear-gradient(135deg, #EC9F05 10%, #FF4E00 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .about-section {
   background-image: url('../images/edward-unsplash-blur.jpg');
   background-color: #704010;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+.services-info5 {
+  padding-left: 1PX;
+
+}
+about-image67 {
+  border-radius: var(--border-radius-medium);
+  display:inline-block ;
+  
+
 }
 
 .about-image {
