@@ -11,86 +11,92 @@ https://templatemo.com/tm-583-festava-live
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
 .about-text-wrap {
-  text-align: center; /* Adjust this property based on your design */
+  text-align: center;
+  /* Adjust this property based on your design */
 }
 
 .about-image {
-  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  max-width: 100%;
+  /* Ensure the image doesn't exceed its container */
   height: auto;
 }
+
 :root {
-  --white-color:                  #ffffff;
-  --primary-color:                #F8CB2E;
-  --secondary-color:              #EE5007;
-  --section-bg-color:             #f0f8ff;
-  --custom-btn-bg-color:          #EE5007;
-  --custom-btn-bg-hover-color:    #c01f27;
-  --dark-color:                   #000000;
-  --p-color:                      #717275;
-  --border-color:                 #7fffd4;
-  --link-hover-color:             #B22727;
+  --white-color: #ffffff;
+  --primary-color: #F8CB2E;
+  --secondary-color: #EE5007;
+  --section-bg-color: #f0f8ff;
+  --custom-btn-bg-color: #EE5007;
+  --custom-btn-bg-hover-color: #c01f27;
+  --dark-color: #000000;
+  --p-color: #717275;
+  --border-color: #7fffd4;
+  --link-hover-color: #B22727;
 
-  --body-font-family:             'Outfit', sans-serif;
+  --body-font-family: 'Outfit', sans-serif;
 
-  --h1-font-size:                 74px;
-  --h2-font-size:                 46px;
-  --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
-  --h5-font-size:                 24px;
-  --h6-font-size:                 22px;
-  --p-font-size:                  18px;
-  --btn-font-size:                14px;
-  --copyright-font-size:          16px;
+  --h1-font-size: 74px;
+  --h2-font-size: 46px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 22px;
+  --p-font-size: 18px;
+  --btn-font-size: 14px;
+  --copyright-font-size: 16px;
 
-  --border-radius-large:          100px;
-  --border-radius-medium:         20px;
-  --border-radius-small:          10px;
+  --border-radius-large: 100px;
+  --border-radius-medium: 20px;
+  --border-radius-small: 10px;
 
-  --font-weight-light:            300;
-  --font-weight-normal:           400;
-  --font-weight-bold:             700;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
 }
- .row {
-        display: flex;
-        justify-content: space-between;
-    }
 
-    .col-lg-3,
-    .col-12 {
-        margin-bottom: 1rem; /* You can adjust the margin as needed */
-    }
+.row {
+  display: flex;
+  justify-content: space-between;
+}
 
-    .text-center {
-        text-align: center;
-    }
+.col-lg-3,
+.col-12 {
+  margin-bottom: 1rem;
+  /* You can adjust the margin as needed */
+}
 
-    .text-white {
-        color: white;
-       
-    }
-    .text-justify 
-    {
-      text-align:justify;
+.text-center {
+  text-align: center;
+}
 
-    }
+.text-white {
+  color: white;
 
-    .font-weight-light {
-        font-weight: 300; /* Set the font weight to the lowest */
-    }
+}
 
-    .py-3 {
-        padding-top: 0.75rem;
-        padding-bottom: 0.75rem;
-    }
+.text-justify {
+  text-align: justify;
 
-    .py-lg-0 {
-        padding-top: 0;
-        padding-bottom: 0;
-    }
+}
+
+.font-weight-light {
+  font-weight: 300;
+  /* Set the font weight to the lowest */
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-lg-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 body {
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
 }
 
 
@@ -151,7 +157,7 @@ ul li {
   font-weight: var(--font-weight-light);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -277,7 +283,7 @@ strong {
   opacity: 0.35;
 }
 
-.section-overlay + .container {
+.section-overlay+.container {
   position: relative;
 }
 
@@ -309,22 +315,22 @@ strong {
   margin-right: 15px;
 }
 
-.nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
   background: var(--white-color);
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
   color: var(--primary-color);
 }
 
 .nav-tabs h5 {
-  color: var(--p-color); 
+  color: var(--p-color);
   margin-bottom: 0;
 }
 
 .nav-tabs .nav-link.active h5,
-.nav-tabs .nav-link:focus h5, 
+.nav-tabs .nav-link:focus h5,
 .nav-tabs .nav-link:hover h5 {
   color: var(--primary-color);
 }
@@ -447,7 +453,7 @@ strong {
   padding-bottom: 15px;
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
@@ -568,14 +574,16 @@ strong {
   background-size: cover;
   position: relative;
 }
+
 .services-info5 {
   padding-left: 1PX;
 
 }
+
 about-image67 {
   border-radius: var(--border-radius-medium);
-  display:inline-block ;
-  
+  display: inline-block;
+
 
 }
 
@@ -790,9 +798,9 @@ about-image67 {
   background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
   background-color: #242424;
   background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  /* background-position: center; */
+  /* background-attachment: fixed;
+  background-size: cover; */
 }
 
 #section_4 {
@@ -878,9 +886,6 @@ about-image67 {
   transition: background-color ease-in-out 0.3s;
 }
 
-.carousel {
-  border-radius: 20px;
-}
 
 .carousel-cell {
   width: 100%;
@@ -1016,7 +1021,7 @@ about-image67 {
 }
 
 .site-footer-title {
-  color: var(--primary-color); 
+  color: var(--primary-color);
 }
 
 .site-footer-link,
@@ -1076,7 +1081,7 @@ about-image67 {
   display: block;
 }
 
-.social-icon-link span:hover::before{
+.social-icon-link span:hover::before {
   animation: spinAround 2s linear infinite;
 }
 
@@ -1084,6 +1089,7 @@ about-image67 {
   from {
     transform: rotate(0deg)
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -1122,7 +1128,7 @@ about-image67 {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .navbar {
     background-color: var(--dark-color);
   }
@@ -1151,7 +1157,7 @@ about-image67 {
     padding: 20px;
   }
 
-  .schedule-table tr, 
+  .schedule-table tr,
   .schedule-table td {
     padding: 25px;
   }
@@ -1170,6 +1176,17 @@ about-image67 {
     font-size: 14px;
     padding: 10px 20px;
   }
+
+  .carousel-cell img {
+    height: 200px;
+    width: auto;
+  }
+
+  .carousel-cell video {
+    height: 200px;
+    width: auto;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -1193,4 +1210,3 @@ about-image67 {
     font-size: 20px;
   }
 }
-
